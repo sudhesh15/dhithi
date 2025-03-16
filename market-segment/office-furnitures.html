@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Dhithi Industries, Bangalore | Office Furniture & Essentials</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top header_section">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="/index.html" class="logo d-flex align-items-center me-auto">
+        <img src="/assets/img/logo.png" alt="">
+        <!-- <h1 class="sitename">Dhithi Industries</h1><span>.</span> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li class="dropdown"><a href=""><span>About Us</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/index.html#about">About Dhithi Industries</a></li>
+              <li><a href="/about-us.html#why-us">Why Dhithi Industries</a></li>
+              <li><a href="/about-us.html#team">Leadership Team</a></li>
+              <li><a href="/about-us.html#awards">Awards & Achievements</a></li>
+              <li><a href="/about-us.html#media">Media Gallery</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="/index.html#marketSegments"><span>Market Segment</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/market-segment/chemicals.html">Chemicals</a></li>
+              <li><a href="/market-segment/industrial-equipments.html">Industrial Equipments</a></li>
+              <li><a href="/market-segment/safety-materials.html">Safety Materials</a></li>
+              <li><a href="/market-segment/office-furnitures.html">Office Furniture & Essentials</a></li>
+              <li><a href="/market-segment/corporate-gifting.html">Corporate Gifting</a></li>
+              <li><a href="/market-segment/packaging-solutions.html">Packaging solutions</a></li>
+              <li><a href="/market-segment/food-products.html">Food Products & Testing</a></li>
+              <li><a href="/market-segment/man-power-services.html">Manpower Services</a></li>
+            </ul>
+          </li>
+          <li><a href="/index.html#clients">Clients</a></li>
+          <li><a href="/index.html#testimonials">Testimonials</a></li>
+          <li><a href="/catalouge.html">Catalogues</a></li>
+          <li><a href="/index.html#careers">Careers</a></li>
+          <li><a href="/index.html#contact">Contact Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+    <style>
+      :root {
+      --primary-color:  #005392;
+      --secondary-color: #66A543;
+      --text-color: #333;
+      --light-gray: #f8f9fa;
+      --card-shadow: rgba(0, 0, 0, 0.1);
+      --card-radius: 12px;
+      --transition: all 0.3s ease;
+    }
+    
+    .product-section {
+      padding: 80px 0;
+      background-color: #fdfdfd;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .section-header h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .section-header h2::after {
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 3px;
+      background-color: var(--primary-color);
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .product-card {
+      position: relative;
+      background-color: white;
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 30px;
+      transition: var(--transition);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border: none;
+    }
+    
+    .product-card:hover {
+      transform: translateY(-10px);
+    }
+    
+    .product-img-container {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .product-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .product-card:hover img {
+      transform: scale(1.1);
+    }
+    
+    .icon-container {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: #fff;
+      color: #005392;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(142, 22, 128, 0.3);
+      z-index: 1;
+      transition: var(--transition);
+    }
+    
+    .product-card:hover .icon-container {
+      background-color: white;
+      color: var(--primary-color);
+    }
+    
+    .card-content {
+      padding: 25px 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      position: relative;
+      transition: var(--transition);
+    }
+    
+    .product-card:hover .card-title {
+      color: var(--secondary-color);
+    }
+    
+    .card-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+      flex-grow: 1;
+    }
+    
+    .card-overlay {
+      position: absolute;
+      top: -5px;
+      left: 0;
+      width: 5px;
+      height: 0;
+      background-color: var(--primary-color);
+      transition: height 0.3s ease;
+    }
+    
+    @media (max-width: 768px) {
+      
+      .card-content {
+        padding: 20px 15px;
+      }
+      
+      .card-title {
+        font-size: 1.2rem;
+      }
+    }
+    </style>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Market Segment</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="/index.html">Home</a></li>
+            <li class="current">Market Segment</li>
+            <li class="current">Office Furniture & Essentials</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="main-heading">Office Furniture & Essentials</h3>
+            <p class="justify">We are proud to offer an extensive selection of office essentials that cater to all your professional
+                needs. Our product range includes:
+            </p>
+            <div class="container product-section">
+              
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-img-container">
+                      <img src="/assets/img/furnitures/1.png" alt="Biodegradable">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-overlay"></div>
+                      <h4 class="card-title">Office Furniture</h4>
+                      <p class="card-description">Our collection features ergonomic chairs, sturdy desks, versatile storage solutions, and elegant meeting room furniture, all designed to enhance your workspace's aesthetic and functionality.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-img-container">
+                      <img src="/assets/img/furnitures/2.png" alt="Biodegradable">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-overlay"></div>
+                      <h4 class="card-title">Workstations</h4>
+                      <p class="card-description">We provide customizable workstations that can be tailored to fit your office
+                        layout, ensuring that your team has the perfect setup to maximize productivity.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-img-container">
+                      <img src="/assets/img/furnitures/3.png" alt="Biodegradable">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-overlay"></div>
+                      <h4 class="card-title">Laptops and Computers</h4>
+                      <p class="card-description"> Stay ahead with our latest models of laptops and desktop
+                        computers from top brands, offering high performance and reliability for all your business
+                        operations.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-img-container">
+                      <img src="/assets/img/furnitures/4.png" alt="Biodegradable">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-overlay"></div>
+                      <h4 class="card-title">Computer Accessories</h4>
+                      <p class="card-description"> Enhance your computing experience with our wide range of
+                        accessories, including monitors, keyboards, mice, docking stations, and more, designed to
+                        improve your workflow and comfort.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-img-container">
+                      <img src="/assets/img/furnitures/5.png" alt="Biodegradable">
+                    </div>
+                    <div class="card-content">
+                      <div class="card-overlay"></div>
+                      <h4 class="card-title">Stationery and Office Supplies</h4>
+                      <p class="card-description">From pens and notepads to filing solutions and
+                        organizational tools, we have everything you need to keep your office running smoothly and
+                        efficiently.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                      <div class="product-img-container">
+                        <img src="/assets/img/furnitures/6.png" alt="Biodegradable">
+                      </div>
+                      <div class="card-content">
+                        <div class="card-overlay"></div>
+                        <h4 class="card-title">Additional Office Essentials</h4>
+                        <p class="card-description">Explore our selection of printers, scanners, projectors, and
+                            other office equipment that support your daily tasks and contribute to a seamless work
+                            experience.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+    <a target="_blank" href="tel:+919590957747" class="telephone-button"><i class="bi bi-telephone"></i></a>
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=919590957747&text=Hello, Dhithi Industries!" class="whatsapp-button"><i class="bi bi-whatsapp"></i></a>
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="/index.html" class="d-flex align-items-center">
+            <span class="sitename">Dhithi Industries Pvt. Ltd.</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>#5, 1st Main, Konena Agrahara, </p>
+            <p>Old Airport Road, Bengaluru, Karnataka, India. 560-017</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 9590957747, +91 9206189605</span></p>
+            <p><strong>Email:</strong> <span>asha@dhithiindustries.com, support@dhithiindustries.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#about">About Us</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#marketSegments">Market Segment</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#careers">Careers</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#clients">Clients</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#testimonials">Testimonials</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/catalouge.html">Catalogues</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="/index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/chemicals.html">Chemicals</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/industrial-equipments.html">Industrial Equipments</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/safety-materials.html">Safety Materials</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/office-furnitures.html">Office Furniture</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/corporate-gifting.html">Corporate Gifting</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/packaging-solutions.html">Packaging Solution</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/food-products.html">Food Products and Testing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/market-segment/man-power-services.html">Man Power Services</a></li>
+            
+            
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Contact Us</h4>
+          <div class="social-links d-flex">
+            <a href="tel: +91-9590957747"><i class="bi bi-telephone"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=919590957747&text=Hello, Dhithi Industries!"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:asha@dhithiindustries.com"><i class="bi bi-envelope"></i></a>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2669571127644!2d77.6813693757229!3d12.954762015245985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1405e85e2359%3A0x255bc9f2be0abb9b!2sHAL%20Old%20Airport%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1739553987082!5m2!1sen!2sin"><i class="bi bi-geo-alt"></i></a>
+            <a href="https://www.linkedin.com/company/dhithi-industries-pvt-ltd/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dhithi Industries</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed & Developed by <a href="https://sudheshholla.in/" target="_blank" class="developer">Sudhesh Holla</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" style="display: none;"></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
