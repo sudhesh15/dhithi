@@ -105,6 +105,45 @@
     margin-right: 8px;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+  .catalog-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adds spacing between elements */
+    background-color: #66A543;
+  }
+
+  .catalog-title {
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; /* Ensures it takes full width */
+    border-radius: 5px;
+  }
+
+  .download-btn {
+    color: white;
+    padding: 10px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Space between text and icon */
+    text-decoration: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .download-icon {
+    font-size: 18px;
+  }
+}
+
 </style>
 </head>
 
@@ -177,7 +216,7 @@
                   <div class="catalog-card">
                       <img src="/assets/img/catalogue/1.png" alt="A Jute Brochure Dhithi" class="catalog-image">
                       <div class="catalog-footer">
-                          <div class="catalog-title">Jute & Cotton Bags</div>
+                          <div class="catalog-title">Jute & Cotton Bags Brochure</div>
                           <a href="/assets/brochures/A Jute Brochure Dhithi.pdf" class="download-btn" download>
                             Download <i class="bi bi-download download-icon"></i>
                           </a>
